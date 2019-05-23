@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KeLineLayout</string>
+
+    <string name="me">我的</string>
+    <string name="discover">发现</string>
+    <string name="home">首页</string>
+    <string name="mingren">名人</string>
+    <string name="User_name_cannot_be_empty">手机号不能为空!</string>
+    <string name="Password_cannot_be_empty">验证码不能为空!</string>
+    <string name="Confirm_password_cannot_be_empty">密码不能为空!</string>
+</resources>

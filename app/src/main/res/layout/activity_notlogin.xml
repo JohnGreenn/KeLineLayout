@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#EEEEEE"
+            android:paddingBottom="21dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="189.0dip"
+                android:background="#008CEE">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="68px"
+                    android:layout_height="45px"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="89dp"
+                    android:layout_marginLeft="69dp"
+                    android:layout_marginBottom="36dp"
+                    android:text="0"
+                    android:textColor="#ffffff"
+                    android:textSize="34px" />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentTop="true"
+
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginEnd="184dp"
+                    android:layout_marginRight="184dp"
+                    android:src="@drawable/headpho" />
+
+                <TextView
+
+                    android:id="@+id/click_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginEnd="177dp"
+                    android:layout_marginRight="177dp"
+                    android:text="点击登录"
+                    android:textColor="#FFFFFF"
+                    android:textSize="34px" />
+
+                <TextView
+                    android:layout_width="68px"
+                    android:layout_height="45px"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="89dp"
+                    android:layout_marginLeft="69dp"
+                    android:layout_marginBottom="36dp"
+                    android:text="0"
+                    android:textColor="#ffffff"
+                    android:textSize="34px" />
+
+                <TextView
+                    android:layout_width="68px"
+                    android:layout_height="45px"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="79dp"
+                    android:layout_marginLeft="79dp"
+                    android:layout_marginBottom="12dp"
+                    android:text="关注"
+                    android:textColor="#ffffff"
+                    android:textSize="34px" />
+
+                <TextView
+                    android:layout_width="68px"
+                    android:layout_height="45px"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="293dp"
+                    android:layout_marginLeft="293dp"
+                    android:layout_marginBottom="36dp"
+                    android:text="0"
+                    android:textColor="#ffffff"
+                    android:textSize="34px" />
+
+                <TextView
+                    android:layout_width="68px"
+                    android:layout_height="45px"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="282dp"
+
+                    android:layout_marginLeft="282dp"
+                    android:layout_marginRight="91dp"
+                    android:layout_marginBottom="12dp"
+                    android:text="提问"
+                    android:textColor="#ffffff"
+                    android:textSize="34px" />
+            </RelativeLayout>
+
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="15dp"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:background="#EEEEEE" />-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/bn_my_recommend"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:drawableLeft="@drawable/my_re"
+                    android:drawableRight="@drawable/icon_enter"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="10dp"
+                    android:text="我的荐股"
+                    android:textSize="20dp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                   />
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="15dp"-->
+                    <!--android:layout_alignParentBottom="true"-->
+                    <!--android:background="#EEEEEE" />-->
+
+                <Button
+                    style="@style/TxtTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#FFFFFF"
+                    android:drawableLeft="@drawable/my_re"
+                    android:drawableRight="@drawable/icon_enter"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="10dp"
+                    android:text="我的订阅"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/bnrecommend"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:drawableLeft="@drawable/my_re"
+                    android:drawableRight="@drawable/icon_enter"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="10dp"
+                    android:text="我的收藏"
+                    android:textSize="20dp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#EEEEEE" />
+
+                <Button
+                    style="@style/TxtTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:drawableLeft="@drawable/my_re"
+                    android:drawableRight="@drawable/icon_enter"
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="10dp"
+                    android:text="我的钱包"
+                    android:textSize="20dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#EEEEEE" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:drawableLeft="@drawable/my_re"
+                    android:drawableRight="@drawable/icon_enter"
+
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="10dp"
+                    android:text="消息中心"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:drawableLeft="@drawable/my_re"
+                    android:drawableRight="@drawable/icon_enter"
+
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="10dp"
+                    android:text="设置"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:drawableLeft="@drawable/my_re"
+                    android:drawableRight="@drawable/icon_enter"
+
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="10dp"
+                    android:text="申请入驻"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:drawableLeft="@drawable/my_re"
+                    android:drawableRight="@drawable/icon_enter"
+
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="10dp"
+                    android:text="申请入驻"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:drawableLeft="@drawable/my_re"
+                    android:drawableRight="@drawable/icon_enter"
+
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="10dp"
+                    android:text="申请入驻"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:drawableLeft="@drawable/my_re"
+                    android:drawableRight="@drawable/icon_enter"
+
+                    android:drawablePadding="10dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="10dp"
+                    android:text="申请入驻"
+                    android:textSize="20dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="21dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:background="#EEEEEE" />-->
+
+
+    <include layout="@layout/layout_bottom"/>
+</LinearLayout>

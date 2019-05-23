@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#008CEE"
+                android:text="发现"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="17dp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_alignParentBottom="true"
+                android:background="#EEEEEE" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="50dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="10dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/my_re"
+                android:drawableRight="@drawable/icon_enter"
+                android:background="#FFFFFF"
+                android:text="热门专栏"
+                android:textSize="15dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#EEEEEE" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="50dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="10dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/my_re"
+                android:drawableRight="@drawable/icon_enter"
+                android:background="#FFFFFF"
+                android:text="热门观点"
+                android:textSize="15dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#EEEEEE" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="50dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="10dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/my_re"
+                android:drawableRight="@drawable/icon_enter"
+                android:background="#FFFFFF"
+                android:text="热门问答"
+                android:textSize="15dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_gravity="center"
+                android:layout_alignParentBottom="true"
+                android:background="#EEEEEE" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="50dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="10dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/my_re"
+                android:drawableRight="@drawable/icon_enter"
+                android:background="#FFFFFF"
+                android:text="找牛股"
+                android:textSize="15dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_alignParentBottom="true"
+                android:background="#EEEEEE" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="50dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="10dp"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/my_re"
+                android:drawableRight="@drawable/icon_enter"
+                android:background="#FFFFFF"
+                android:text="自选股"
+                android:textSize="15dp"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <include layout="@layout/layout_bottom"/>
+
+</LinearLayout>
